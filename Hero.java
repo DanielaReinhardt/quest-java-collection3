@@ -1,5 +1,7 @@
 public class Hero implements Comparable<Hero> {
 
+    public static final Hero include = null;
+
     @Override
     public int compareTo(Hero hero) {
         return this.getAge() - hero.getAge();
